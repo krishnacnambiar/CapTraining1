@@ -1,8 +1,8 @@
 namespace db;
-using { cuid } from '@sap/cds/common';
+using { cuid,managed } from '@sap/cds/common';
 
 
-entity Employee:cuid{
+entity Employee:cuid,managed{
     firstName : String;
     lastName : String;
     dateOfBirth : Date;
