@@ -21,3 +21,39 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+
+
+
+
+
+
+
+
+
+
+
+**/gen/
+**/edmx/
+*.db
+schema.sql
+default-env.json
+**/bin/
+**/target/
+.flattened-pom.xml
+.classpath
+.project
+.settings
+**/node/
+**/node_modules/
+**/.mta/
+*.mtar
+*.log*
+gc_history*
+hs_err*
+*.tgz
+*.iml
+.vscode
+.idea
+
+
